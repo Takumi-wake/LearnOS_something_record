@@ -14,3 +14,13 @@
 - [The Learning&amp;Training Hub of OS Kernel](https://github.com/LearningOS)
 - [LearningOS/rust-based-os-comp2023: 2023春夏季开源操作系统训练营](https://github.com/LearningOS/rust-based-os-comp2023)
 - [2023春夏季开源操作系统训练营 每日/周学习实践过程记录](https://github.com/LearningOS/rust-based-os-comp2023/discussions/170)
+
+## First Week *20230403 - 20230409*
+
+### rustlings仓库的更新
+
+根据现有信息，可以看到，[rust-based-os-comp2023](https://github.com/LearningOS/rust-based-os-comp2023)提供的 `rustilngs github classrom` 是从 [rustlings-template](https://github.com/LearningOS/rustlings-template) 仓库生成的，从readme中的信息，该仓库应该是基于 [rust-lang/rustlings](https://github.com/rust-lang/rustlings) 仓库的 `tag 5.2.1` 拉取出来的，目前 `rustlings` 仓库最新已经更新到5.4.1，因此，准备将训练营的仓库也更新到最新版本。
+
+实际更新中发现，训练营中的仓库 [rustlings-template](https://github.com/LearningOS/rustlings-template) 和 [rust-lang/rustlings](https://github.com/rust-lang/rustlings)仓库的最新release的 `tag 5.4.1`的历史提交存在较大出入，由于担心直接更新可能导致后续的ci执行可能没有完全适配，因此，暂时只将该 `tag 5.4.1`更新到自己的仓库分支 [LearningOS/rust-rustlings-Takumi-wake at rustlings_5.4.1](https://github.com/LearningOS/rust-rustlings-Takumi-wake/tree/rustlings_5.4.1)，用于自己学习使用。
+
+另外，在推送过程遇到 `fix git push error: shallow update not allowed` 问题，解决过程详见 [fix git push error: shallow update not allowed](./notedoc/fix_git_push_error_shallow_update_not_allowed.md)
