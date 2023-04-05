@@ -29,6 +29,11 @@
 
 当执行 `cargo install --path .`安装rustlings时，出现 "Couldn't resolve host name (Could not resolve host: static.crates.io)"等报错，解决过程详见 [rustlings安装编译报错](notedoc/rustlings安装编译报错.md)
 
+### GitHub CI迁移到GitLink
+
+相关准备工作
+
+
 ### rustlings内容练习
 
 #### [Rust语言圣经(Rust Course)](https://course.rs/about-book.html) - 阅读
