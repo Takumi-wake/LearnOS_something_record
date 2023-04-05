@@ -25,7 +25,14 @@
 
 另外，在推送过程遇到 `fix git push error: shallow update not allowed` 问题，解决过程详见 [fix git push error: shallow update not allowed](./notedoc/fix_git_push_error_shallow_update_not_allowed.md)
 
-
-#### rustlings安装报错
+### rustlings安装报错
 
 当执行 `cargo install --path .`安装rustlings时，出现 "Couldn't resolve host name (Could not resolve host: static.crates.io)"等报错，解决过程详见 [rustlings安装编译报错](notedoc/rustlings安装编译报错.md)
+
+### rustlings内容练习
+
+#### [Rust语言圣经(Rust Course)](https://course.rs/about-book.html) - 阅读
+
+#### rustlings完成情况
+
+- complete exercises：intro/variables/if/functions/quiz1/primitive_types
