@@ -24,3 +24,8 @@
 实际更新中发现，训练营中的仓库 [rustlings-template](https://github.com/LearningOS/rustlings-template) 和 [rust-lang/rustlings](https://github.com/rust-lang/rustlings)仓库的最新release的 `tag 5.4.1`的历史提交存在较大出入，由于担心直接更新可能导致后续的ci执行可能没有完全适配，因此，暂时只将该 `tag 5.4.1`更新到自己的仓库分支 [LearningOS/rust-rustlings-Takumi-wake at rustlings_5.4.1](https://github.com/LearningOS/rust-rustlings-Takumi-wake/tree/rustlings_5.4.1)，用于自己学习使用。
 
 另外，在推送过程遇到 `fix git push error: shallow update not allowed` 问题，解决过程详见 [fix git push error: shallow update not allowed](./notedoc/fix_git_push_error_shallow_update_not_allowed.md)
+
+
+#### rustlings安装报错
+
+当执行 `cargo install --path .`安装rustlings时，出现 "Couldn't resolve host name (Could not resolve host: static.crates.io)"等报错，解决过程详见 [rustlings安装编译报错](notedoc/rustlings安装编译报错.md)
