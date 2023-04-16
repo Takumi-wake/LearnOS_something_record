@@ -33,7 +33,6 @@
 
 相关准备工作
 
-
 ### rustlings内容练习
 
 #### [Rust语言圣经(Rust Course)](https://course.rs/about-book.html) - 阅读
@@ -41,3 +40,15 @@
 #### rustlings完成情况
 
 - complete exercises：intro/variables/if/functions/quiz1/primitive_types
+
+## First Week *20230410 - 202304016*
+
+> 这周工作上的项目的事情有点多，基本没有太多的事情投入到这块上来，算是周末把题目给刷完了，害，年轻人不要熬夜！
+
+### rustlings内容练习
+
+- 刷完rustlings剩余的exercises，智能指针/并发/迭代器等部分后面需要再花时间看一下
+
+### GitHub CI迁移到GitLink
+
+本周没有什么进展，同步一下之前的记录，详见链接 [学习笔记/gitlink_CI实践问题记录.md-LearningOSCI迁移小组/info](https://gitlink.org.cn/hub2link/grp_info/tree/master/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%2Fgitlink_CI%E5%AE%9E%E8%B7%B5%E9%97%AE%E9%A2%98%E8%AE%B0%E5%BD%95.md)

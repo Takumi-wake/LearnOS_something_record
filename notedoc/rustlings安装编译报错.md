@@ -63,7 +63,7 @@ replace-with = 'ustc'
 registry = "git://mirrors.ustc.edu.cn/crates.io-index"
 ```
 
-重新执行 `cargo install --path .` 编译成功，如下图所示
+重新执行 `cargo install --path .` 编译成功，如下图所
 
 ![Snipaste_2023_04_05_14_26_08.png](../.assets/Snipaste_2023_04_05_14_26_08.png)
 
