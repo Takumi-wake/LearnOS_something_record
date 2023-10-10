@@ -11,9 +11,51 @@
 
 ## 相关链接
 
-- [The Learning&amp;Training Hub of OS Kernel](https://github.com/LearningOS)
-- [LearningOS/rust-based-os-comp2023: 2023春夏季开源操作系统训练营](https://github.com/LearningOS/rust-based-os-comp2023)
-- [2023春夏季开源操作系统训练营 每日/周学习实践过程记录](https://github.com/LearningOS/rust-based-os-comp2023/discussions/170)
+- [2023年秋季开源操作系统训练营：第一阶段](https://github.com/LearningOS/rust-based-os-comp2023/blob/main/2023-autumn-scheduling-1.md#2023%E5%B9%B4%E7%A7%8B%E5%AD%A3%E5%BC%80%E6%BA%90%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%AC%E4%B8%80%E9%98%B6%E6%AE%B5)
+
+> - [The Learning &amp; Training Hub of OS Kernel](https://github.com/LearningOS)
+> - [LearningOS/rust-based-os-comp2023: 2023春夏季开源操作系统训练营](https://github.com/LearningOS/rust-based-os-comp2023)
+> - [2023春夏季开源操作系统训练营 每日/周学习实践过程记录](https://github.com/LearningOS/rust-based-os-comp2023/discussions/170)
+
+## Week 1: 20231009 - 20231015
+
+### rustlings仓库本地安装
+
+本地环境配置不再赘述，新的改动是使用了字节的源，参考 `https://rsproxy.cn/`，`$HOME/.cargo/config` 中更新为如下内容：
+
+```bash
+# [source.crates-io]
+# registry = "https://github.com/rust-lang/crates.io-index"
+# replace-with = 'ustc'
+# [source.ustc]
+# registry = "git://mirrors.ustc.edu.cn/crates.io-index"
+
+[source.crates-io]
+replace-with = 'rsproxy'
+[source.rsproxy]
+registry = "https://rsproxy.cn/crates.io-index"
+[source.rsproxy-sparse]
+registry = "sparse+https://rsproxy.cn/index/"
+[registries.rsproxy]
+index = "https://rsproxy.cn/crates.io-index"
+[net]
+git-fetch-with-cli = true
+
+```
+
+本地安装rustlings
+
+```bash
+# git clone git@github.com:LearningOS/rust-rustlings-2023-autumn-Takumi-wake.git
+# cd rustlings
+# cargo install --force --path .
+```
+
+安装成功后，执行 `rustlings list`，即显示为完整的exercise
+
+![Snipaste_2023-10-10_22-08-53.png](.assets/Snipaste_2023-10-10_22-08-53.png)
+
+---
 
 ## First Week *20230403 - 20230409*
 
@@ -41,7 +83,7 @@
 
 - complete exercises：intro/variables/if/functions/quiz1/primitive_types
 
-## First Week *20230410 - 202304016*
+## Second Week *20230410 - 202304016*
 
 > 这周工作上的项目的事情有点多，基本没有太多的事情投入到这块上来，算是周末把题目给刷完了，害，年轻人不要熬夜！
 
